@@ -1,0 +1,121 @@
+[
+	{
+	  "Description": "Advance to 'Go'. (Collect £200)",
+	  "Effect": {
+		"Type": "advance_to",
+		"Target": "Go"
+	  }
+	},
+	{
+	  "Description": "Bank error in your favor. Collect £200.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 200
+	  }
+	},
+	{
+	  "Description": "Doctor's fees. Pay £50.",
+	  "Effect": {
+		"Type": "pay_money",
+		"Amount": 50
+	  }
+	},
+	{
+	  "Description": "Get Out of Jail Free.",
+	  "Effect": {
+		"Type": "get_out_of_jail_free",
+		"Card_Type": "comunity_chest"
+	  }
+	},
+	{
+	  "Description": "Go to Jail. Go directly to jail. Do not pass Go, Do not collect £200.",
+	  "Effect": {
+		"Type": "go_to_jail"
+	  }
+	},
+	{
+	  "Description": "Grand Opera Night. Collect £50 from every player for opening night seats.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 50
+	  }
+	},
+	{
+	  "Description": "Holiday Fund matures. Receive £100.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 100
+	  }
+	},
+	{
+	  "Description": "Income tax refund. Collect £20.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 20
+	  }
+	},
+	{
+	  "Description": "It's your birthday. Collect £10 from every player.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 10
+	  }
+	},
+	{
+	  "Description": "Life insurance matures – Collect £100.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 100
+	  }
+	},
+	{
+	  "Description": "Hospital Fees. Pay £50.",
+	  "Effect": {
+		"Type": "pay_money",
+		"Amount": 50
+	  }
+	},
+	{
+	  "Description": "School fees. Pay £50.",
+	  "Effect": {
+		"Type": "pay_money",
+		"Amount": 50
+	  }
+	},
+	{
+	  "Description": "Receive £25 consultancy fee.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 25
+	  }
+	},
+	{
+	  "Description": "You are assessed for street repairs: Pay £40 per house and £115 per hotel you own.",
+	  "Effect": {
+		"Type": "pay_money_buildings",
+		"house": 40,
+		"hotel": 115
+	  }
+	},
+	{
+	  "Description": "You have won second prize in a beauty contest. Collect £10.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 10
+	  }
+	},
+	{
+	  "Description": "Life insurance matures. Collect £100.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 100
+	  }
+	},
+	{
+	  "Description": "You inherit £100.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 100
+	  }
+	}
+]

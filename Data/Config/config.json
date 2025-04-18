@@ -1,0 +1,21 @@
+{
+	"Houses": 32,
+	"Hotels": 16,
+	"Starting_Amount": 1500,
+	"Base_Salary": 200,
+	"Bail_Amount": 50,
+	"Max_Turns_In_Jail": 3,
+	"Rent_In_Jail": false,
+	"Unmortgage_In_Jail": false,
+	"Build_In_Jail": false,
+	"Trade_In_Jail": false,
+	"Double_Salary_On_Go": false,
+	"Starting_Random_Properties": 0,
+	"Dice_Size": 6,
+	"Dice_Number": 2,
+	"Speed_Dice": {
+	  "Active": true,
+	  "Monopoly_Man_Count": 2,
+	  "Bus_Count": 1
+	}
+}

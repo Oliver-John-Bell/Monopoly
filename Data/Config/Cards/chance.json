@@ -1,0 +1,128 @@
+[
+	{
+	  "Description": "Advance to 'Go'. (Collect £200)",
+	  "Effect": {
+		"Type": "advance_to",
+		"Target": "Go"
+	  }
+	},
+	{
+	  "Description": "Advance to Trafalgar Square.",
+	  "Effect": {
+		"Type": "advance_to",
+		"Target": "Trafalgar Square"
+	  }
+	},
+	{
+	  "Description": "Advance to Pall Mall.",
+	  "Effect": {
+		"Type": "advance_to",
+		"Target": "Pall Mall"
+	  }
+	},
+	{
+	  "Description": "Advance token to the nearest Utility. If unowned, you may buy it from the Bank. If owned, throw dice and pay owner a total 10 times the amount thrown.",
+	  "Effect": {
+		"Type": "advance_to_nearest",
+		"Target": "Utility"
+	  }
+	},
+	{
+	  "Description": "Advance to the nearest Railroad. If unowned, you may buy it from the Bank. If owned, pay owner twice the rent to which they are otherwise entitled. If Railroad is unowned, you may buy it from the Bank.",
+	  "Effect": {
+		"Type": "advance_to_nearest",
+		"Target": "Railroad"
+	  }
+	},
+	{
+	  "Description": "Bank pays you dividend of £50.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 50
+	  }
+	},
+	{
+	  "Description": "Get out of Jail Free.",
+	  "Effect": {
+		"Type": "get_out_of_jail_free",
+		"Card_Type": "chance"
+	  }
+	},
+	{
+	  "Description": "Go Back 3 Spaces.",
+	  "Effect": {
+		"Type": "advance_steps",
+		"Amount": -3
+	  }
+	},
+	{
+	  "Description": "Go to Jail. Go directly to Jail. Do not pass GO, do not collect £200.",
+	  "Effect": {
+		"Type": "go_to_jail"
+	  }
+	},
+	{
+	  "Description": "Make general repairs on all your property: For each house pay £25, For each hotel pay £100.",
+	  "Effect": {
+		"Type": "pay_money_buildings",
+		"House_Price": 25,
+		"Hotel_Price": 100
+	  }
+	},
+	{
+	  "Description": "Take a ride to King’s Cross Station. If you pass Go, collect £200.",
+	  "Effect": {
+		"Type": "advance_to",
+		"Target": "King’s Cross Station"
+	  }
+	},
+	{
+	  "Description": "Pay Poor Tax of £15.",
+	  "Effect": {
+		"Type": "pay_money",
+		"Amount": 15
+	  }
+	},
+	{
+	  "Description": "Take a walk on the board walk. Advance to Mayfair",
+	  "Effect": {
+		"Type": "advance_to",
+		"Target": "Mayfair"
+	  }
+	},
+	{
+	  "Description": "You have been elected Chairman of the Board. Pay each player £50.",
+	  "Effect": {
+		"Type": "pay_money_to_players",
+		"Amount": 50
+	  }
+	},
+	{
+	  "Description": "Your building loan matures. Receive £150.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 150
+	  }
+	},
+	{
+	  "Description": "Pay school tax of £150.",
+	  "Effect": {
+		"Type": "pay_money",
+		"Amount": 150
+	  }
+	},
+	{
+	  "Description": "Your Holiday fund matures. Collect £100.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 100
+	  }
+	},
+	{
+	  "Description": "Bank pays you dividend of £50.",
+	  "Effect": {
+		"Type": "collect_money",
+		"Amount": 50
+	  }
+	}
+]
